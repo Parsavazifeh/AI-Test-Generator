@@ -1,7 +1,7 @@
 
 
 
-# AI-Based Test Case Generation - Project Plan (Enhanced)
+# AI-Based Test Case Generation
 
 ## 1. Introduction  
 This project automates test case generation using AI models (such as GPT-4 and GPT-3.5-turbo) to analyze Python source code, bug reports, and existing test suites. The system generates unit, integration, and UI tests—accelerating test creation, reducing human bias, and adapting to evolving codebases.
