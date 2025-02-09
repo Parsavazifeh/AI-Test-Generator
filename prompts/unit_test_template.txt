@@ -1,0 +1,13 @@
+Function details:
+Name: {function_name}
+Signature: {arguments} -> {return_type}
+Description: {docstring}
+
+Write a complete PyTest integration test suite for this function. The output must:
+- Include all necessary imports (e.g. `import pytest`) at the top.
+- Either include the function definition or assume it is already available.
+- Define one or more test functions with names starting with "test_".
+- Cover typical cases as well as edge cases (for example, empty inputs, None values, and invalid types).
+- Use assertions (and `pytest.raises` where needed) to verify correct outputs or expected exceptions.
+- Use mocks only if the function depends on external resources.
+- Return all test code in a single, self-contained Python code block without any extra commentary or chain-of-thought markers.

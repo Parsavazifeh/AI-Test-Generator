@@ -1,0 +1,16 @@
+Given the following UI element:
+
+Element ID: {element_id}
+Element XPath: {element_xpath}
+Element Name: {element_name}
+
+Dependencies: {dependencies}
+
+Generate a complete Selenium-based UI test for this element. The output must:
+- Include all necessary imports (e.g. `from selenium import webdriver`, etc.) at the top.
+- Configure the WebDriver to run in headless mode.
+- Locate the element using its ID or XPath.
+- Perform an interaction with the element (such as clicking, typing, or selecting).
+- Include assertions to verify the expected behavior after the interaction.
+- Include error handling for cases where the element is not found or not interactable.
+- Return all test code in a single, self-contained Python code block without any extra commentary or chain-of-thought markers.

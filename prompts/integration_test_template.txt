@@ -1,0 +1,18 @@
+Given the Python function below:
+
+Function Name: {function_name}
+Arguments: {arguments}
+Return Type: {return_type}
+Docstring: {docstring}
+
+Dependencies: {dependencies}
+
+Generate a complete PyTest integration test suite for this function. The output must:
+- Include all necessary imports (e.g. `import pytest`) at the top.
+- Either include the function definition or assume it is already available.
+- Define one or more test functions with names starting with "test_".
+- Cover typical scenarios using real dependency behavior.
+- Cover edge cases such as network failures or invalid responses from external dependencies.
+- Include assertions (and use `pytest.raises` where needed) to verify correct outputs or expected exceptions.
+- Mock only the external dependencies that are not under test.
+- Return all test code in a single, self-contained Python code block without any extra commentary or chain-of-thought markers.
