@@ -277,8 +277,14 @@ def log_failed_test(test_code, error):
 
 ### Usage Instructions  
 ```bash
-# Generate tests for a Python file
-python main.py --input myapp/utils.py --test-type unit
+# Generate unit tests for a Python file
+python main.py --input example.py --test-type unit
+
+# Generate integration tests for a Python file
+python main.py --input example.py --test-type integration
+
+# Generate UI tests for a Python file
+python main.py --input example_ui.py --test-type ui
 
 # Run all tests
 pytest tests/
